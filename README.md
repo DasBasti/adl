@@ -9,15 +9,8 @@ adl helps generate markdown files for capturing information in an ADR and genera
 Install adl and add it to your path. **Do not run copy/paste this script. Read it, and run only the parts that you need.**
 
 ```bash
-# Use the appropriate binary for your OS and Arch
-binary="adl_linux_arm"    # linux arm
-binary="adl_linux_x86"    # linux x86
-binary="adl_mac_arm"      # mac arm 
-binary="adl_mac_x86"      # mac x86
-binary="adl_windows_x86"  # windows
-
 # curl, follow redirects, output to "adl", download target latest release
-curl -L -o adl https://github.com/bradcypert/adl/releases/latest/download/$binary
+curl -L -o adl https://github.com/bradcypert/adl/releases/latest/download/adl
 
 # You _may_ need to update permissions for adl
 chmod 744 adl
